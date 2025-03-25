@@ -11,6 +11,12 @@ A deep learning project that implements a Convolutional Neural Network (CNN) for
 - **Web Interface**: FastAPI-based web application for real-time predictions
 - **Documentation**: Detailed documentation and interactive notebooks
 
+## Documentation
+
+- [Technical Documentation](docs/TECHNICAL.md) - Detailed technical specifications and implementation details
+- [API Documentation](docs/API.md) - API endpoints and usage guide
+- [Development Guide](docs/DEVELOPMENT.md) - Guide for developers and contributors
+
 ## Project Structure
 
 ```
@@ -21,11 +27,12 @@ cnn-image-classifier/
 │   ├── utils/          # Utility functions
 │   └── config.py       # Configuration settings
 ├── app/                # FastAPI web application
-├── notebooks/          # Jupyter notebooks
-├── data/              # Dataset storage
-├── models/            # Saved models
-├── results/           # Training results and visualizations
-└── logs/              # Training logs
+├── docs/              # Documentation
+├── notebooks/         # Jupyter notebooks
+├── data/             # Dataset storage
+├── models/           # Saved models
+├── results/          # Training results and visualizations
+└── logs/             # Training logs
 ```
 
 ## Installation
@@ -92,7 +99,7 @@ The training process generates:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. See our [Development Guide](docs/DEVELOPMENT.md) for more details.
 
 ## License
 
